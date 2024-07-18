@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """a pymongo function that lists all documents in a collection"""
-import pprint
 
 
 def list_all(mongo_collection):
