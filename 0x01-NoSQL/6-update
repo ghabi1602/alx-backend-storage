@@ -1,0 +1,5 @@
+// a mongodb script that adds a new attribute a all documents
+// with name equal to Holberton school
+
+db.school.update({name: "Holberton school"},
+	{"$push": {address: "972 Mission street"}})
