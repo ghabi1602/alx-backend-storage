@@ -1,0 +1,3 @@
+// a mongo script that lists all documents of a collection
+
+db.school.find()
