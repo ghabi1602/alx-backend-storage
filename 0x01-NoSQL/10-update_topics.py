@@ -6,5 +6,5 @@ def update_topics(mongo_collection, name, topics):
     """a function that updates the topics of a school"""
     mongo_collection.update_many(
             {"name": name},
-            {"$push": {"topics": topics}}
+            {"$set": {"topics": topics}}
             )
