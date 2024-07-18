@@ -1,0 +1,3 @@
+// a mongodb script that deletes a matched number of documents
+
+db.school.deleteMany({name: "Holberton school"})
